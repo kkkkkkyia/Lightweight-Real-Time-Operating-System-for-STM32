@@ -1,0 +1,257 @@
+Dependencies for Project 'myRTOS', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060422::V5.06 update 4 (build 422)::ARMCC
+F (..\kernel\source\my_mem.c)(0x67186019)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\arch\arm\cortex-m3 -I ..\kernel\include -I ..\platform -I ..\STM32FWlib\serial -I ..\STM32FWlib\STM32F10xFWLib\inc -I ..\kernel -I ..\Demo-IE:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD-o .\objects\my_mem.o --omf_browse .\objects\my_mem.crf --depend .\objects\my_mem.d)
+I (..\kernel\include\my_mem.h)(0x66447344)
+I (..\kernel\include\my_list.h)(0x6646BBE6)
+I (..\kernel\include\my_types.h)(0x66421FF7)
+I (..\kernel\include\my_config.h)(0x66470884)
+I (..\kernel\include\my_lib.h)(0x664ABA8E)
+I (..\kernel\include\my_printk.h)(0x664707C4)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x6641FD1E)
+I (..\kernel\include\my_critical.h)(0x6646BC61)
+I (..\arch\arm\cortex-m3\port.h)(0x6642C9BD)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\arch\arm\cortex-m3\portmacro.h)(0x6646C30D)
+I (..\arch\arm\cortex-m3\my_arch.h)(0x6646BBE4)
+F (..\kernel\source\my_scheduler.c)(0x66A0AB8F)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\arch\arm\cortex-m3 -I ..\kernel\include -I ..\platform -I ..\STM32FWlib\serial -I ..\STM32FWlib\STM32F10xFWLib\inc -I ..\kernel -I ..\Demo-IE:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD-o .\objects\my_scheduler.o --omf_browse .\objects\my_scheduler.crf --depend .\objects\my_scheduler.d)
+I (..\kernel\include\my_scheduler.h)(0x6653ED7A)
+I (..\kernel\include\my_config.h)(0x66470884)
+I (..\kernel\include\my_types.h)(0x66421FF7)
+I (..\kernel\include\my_list.h)(0x6646BBE6)
+I (..\kernel\include\my_task.h)(0x668D04C9)
+I (..\kernel\include\my_critical.h)(0x6646BC61)
+I (..\arch\arm\cortex-m3\port.h)(0x6642C9BD)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\arch\arm\cortex-m3\portmacro.h)(0x6646C30D)
+I (..\kernel\include\my_time.h)(0x6642BAC5)
+I (..\kernel\include\my_timer.h)(0x66A0ADC9)
+F (..\kernel\source\my_task.c)(0x668D0240)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\arch\arm\cortex-m3 -I ..\kernel\include -I ..\platform -I ..\STM32FWlib\serial -I ..\STM32FWlib\STM32F10xFWLib\inc -I ..\kernel -I ..\Demo-IE:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD-o .\objects\my_task.o --omf_browse .\objects\my_task.crf --depend .\objects\my_task.d)
+I (..\kernel\include\my_critical.h)(0x6646BC61)
+I (..\arch\arm\cortex-m3\port.h)(0x6642C9BD)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\arch\arm\cortex-m3\portmacro.h)(0x6646C30D)
+I (..\kernel\include\my_config.h)(0x66470884)
+I (..\kernel\include\my_types.h)(0x66421FF7)
+I (..\kernel\include\my_error_code.h)(0x6646B7B1)
+I (..\kernel\include\my_mem.h)(0x66447344)
+I (..\kernel\include\my_list.h)(0x6646BBE6)
+I (..\kernel\include\my_lib.h)(0x664ABA8E)
+I (..\arch\arm\cortex-m3\my_arch.h)(0x6646BBE4)
+I (..\kernel\include\my_task.h)(0x668D04C9)
+I (..\kernel\include\my_scheduler.h)(0x6653ED7A)
+I (..\kernel\include\my_time.h)(0x6642BAC5)
+I (..\kernel\include\my_printk.h)(0x664707C4)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x6641FD1E)
+F (..\kernel\source\my_time.c)(0x6718601D)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\arch\arm\cortex-m3 -I ..\kernel\include -I ..\platform -I ..\STM32FWlib\serial -I ..\STM32FWlib\STM32F10xFWLib\inc -I ..\kernel -I ..\Demo-IE:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD-o .\objects\my_time.o --omf_browse .\objects\my_time.crf --depend .\objects\my_time.d)
+I (..\kernel\include\my_time.h)(0x6642BAC5)
+I (..\kernel\include\my_types.h)(0x66421FF7)
+I (..\kernel\include\my_config.h)(0x66470884)
+F (..\kernel\source\my_queue.c)(0x6653EE04)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\arch\arm\cortex-m3 -I ..\kernel\include -I ..\platform -I ..\STM32FWlib\serial -I ..\STM32FWlib\STM32F10xFWLib\inc -I ..\kernel -I ..\Demo-IE:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD-o .\objects\my_queue.o --omf_browse .\objects\my_queue.crf --depend .\objects\my_queue.d)
+I (..\kernel\include\my_queue.h)(0x6690885C)
+I (..\kernel\include\my_types.h)(0x66421FF7)
+I (..\kernel\include\my_list.h)(0x6646BBE6)
+I (..\kernel\include\my_critical.h)(0x6646BC61)
+I (..\arch\arm\cortex-m3\port.h)(0x6642C9BD)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\arch\arm\cortex-m3\portmacro.h)(0x6646C30D)
+I (..\kernel\include\my_config.h)(0x66470884)
+I (..\kernel\include\my_lib.h)(0x664ABA8E)
+I (..\kernel\include\my_printk.h)(0x664707C4)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x6641FD1E)
+I (..\kernel\include\my_time.h)(0x6642BAC5)
+I (..\kernel\include\my_error_code.h)(0x6646B7B1)
+I (..\kernel\include\my_scheduler.h)(0x6653ED7A)
+I (..\kernel\include\my_task.h)(0x668D04C9)
+I (..\kernel\include\my_mem.h)(0x66447344)
+I (..\arch\arm\cortex-m3\my_arch.h)(0x6646BBE4)
+F (..\kernel\source\my_mutex.c)(0x6653E962)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\arch\arm\cortex-m3 -I ..\kernel\include -I ..\platform -I ..\STM32FWlib\serial -I ..\STM32FWlib\STM32F10xFWLib\inc -I ..\kernel -I ..\Demo-IE:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD-o .\objects\my_mutex.o --omf_browse .\objects\my_mutex.crf --depend .\objects\my_mutex.d)
+I (..\kernel\include\my_mutex.h)(0x6645B764)
+I (..\kernel\include\my_task.h)(0x668D04C9)
+I (..\kernel\include\my_list.h)(0x6646BBE6)
+I (..\kernel\include\my_types.h)(0x66421FF7)
+I (..\kernel\include\my_config.h)(0x66470884)
+I (..\kernel\include\my_error_code.h)(0x6646B7B1)
+I (..\kernel\include\my_critical.h)(0x6646BC61)
+I (..\arch\arm\cortex-m3\port.h)(0x6642C9BD)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\arch\arm\cortex-m3\portmacro.h)(0x6646C30D)
+I (..\kernel\include\my_scheduler.h)(0x6653ED7A)
+I (..\arch\arm\cortex-m3\my_arch.h)(0x6646BBE4)
+I (..\kernel\include\my_time.h)(0x6642BAC5)
+I (..\kernel\include\my_printk.h)(0x664707C4)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x6641FD1E)
+F (..\kernel\source\my_kernel.c)(0x6646BD4B)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\arch\arm\cortex-m3 -I ..\kernel\include -I ..\platform -I ..\STM32FWlib\serial -I ..\STM32FWlib\STM32F10xFWLib\inc -I ..\kernel -I ..\Demo-IE:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD-o .\objects\my_kernel.o --omf_browse .\objects\my_kernel.crf --depend .\objects\my_kernel.d)
+I (..\kernel\include\my_kernel.h)(0x6646BD5E)
+I (..\kernel\include\my_scheduler.h)(0x6653ED7A)
+I (..\kernel\include\my_config.h)(0x66470884)
+I (..\kernel\include\my_types.h)(0x66421FF7)
+I (..\kernel\include\my_list.h)(0x6646BBE6)
+I (..\kernel\include\my_task.h)(0x668D04C9)
+I (..\kernel\include\my_time.h)(0x6642BAC5)
+I (..\kernel\include\my_mem.h)(0x66447344)
+I (..\kernel\include\my_mutex.h)(0x6645B764)
+I (..\kernel\include\my_sem.h)(0x6646BD5C)
+I (..\kernel\include\my_queue.h)(0x6690885C)
+I (..\kernel\include\my_timer.h)(0x66A0ADC9)
+I (..\kernel\include\my_printk.h)(0x664707C4)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x6641FD1E)
+F (..\kernel\source\my_sem.c)(0x6653EA61)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\arch\arm\cortex-m3 -I ..\kernel\include -I ..\platform -I ..\STM32FWlib\serial -I ..\STM32FWlib\STM32F10xFWLib\inc -I ..\kernel -I ..\Demo-IE:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD-o .\objects\my_sem.o --omf_browse .\objects\my_sem.crf --depend .\objects\my_sem.d)
+I (..\kernel\include\my_sem.h)(0x6646BD5C)
+I (..\kernel\include\my_types.h)(0x66421FF7)
+I (..\kernel\include\my_list.h)(0x6646BBE6)
+I (..\kernel\include\my_config.h)(0x66470884)
+I (..\kernel\include\my_task.h)(0x668D04C9)
+I (..\kernel\include\my_scheduler.h)(0x6653ED7A)
+I (..\kernel\include\my_error_code.h)(0x6646B7B1)
+I (..\kernel\include\my_critical.h)(0x6646BC61)
+I (..\arch\arm\cortex-m3\port.h)(0x6642C9BD)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\arch\arm\cortex-m3\portmacro.h)(0x6646C30D)
+I (..\kernel\include\my_time.h)(0x6642BAC5)
+I (..\arch\arm\cortex-m3\my_arch.h)(0x6646BBE4)
+F (..\kernel\source\my_timer.c)(0x669DC54F)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\arch\arm\cortex-m3 -I ..\kernel\include -I ..\platform -I ..\STM32FWlib\serial -I ..\STM32FWlib\STM32F10xFWLib\inc -I ..\kernel -I ..\Demo-IE:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD-o .\objects\my_timer.o --omf_browse .\objects\my_timer.crf --depend .\objects\my_timer.d)
+I (..\kernel\include\my_timer.h)(0x66A0ADC9)
+I (..\kernel\include\my_list.h)(0x6646BBE6)
+I (..\kernel\include\my_task.h)(0x668D04C9)
+I (..\kernel\include\my_types.h)(0x66421FF7)
+I (..\kernel\include\my_config.h)(0x66470884)
+I (..\kernel\include\my_error_code.h)(0x6646B7B1)
+I (..\kernel\include\my_time.h)(0x6642BAC5)
+I (..\kernel\include\my_scheduler.h)(0x6653ED7A)
+I (..\kernel\include\my_printk.h)(0x664707C4)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x6641FD1E)
+I (..\kernel\include\my_lib.h)(0x664ABA8E)
+I (..\kernel\include\my_critical.h)(0x6646BC61)
+I (..\arch\arm\cortex-m3\port.h)(0x6642C9BD)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\arch\arm\cortex-m3\portmacro.h)(0x6646C30D)
+F (.\startup_stm32f1xx.s)(0x664425E2)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-IE:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include--pd "__UVISION_VERSION SETA 539" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f1xx.lst --xref -o .\objects\startup_stm32f1xx.o --depend .\objects\startup_stm32f1xx.d)
+F (..\arch\arm\cortex-m3\port.c)(0x66A069F2)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\arch\arm\cortex-m3 -I ..\kernel\include -I ..\platform -I ..\STM32FWlib\serial -I ..\STM32FWlib\STM32F10xFWLib\inc -I ..\kernel -I ..\Demo-IE:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (..\arch\arm\cortex-m3\port.h)(0x6642C9BD)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\arch\arm\cortex-m3\portmacro.h)(0x6646C30D)
+I (..\kernel\include\my_config.h)(0x66470884)
+I (..\kernel\include\my_types.h)(0x66421FF7)
+I (..\kernel\include\my_scheduler.h)(0x6653ED7A)
+I (..\kernel\include\my_list.h)(0x6646BBE6)
+I (..\kernel\include\my_task.h)(0x668D04C9)
+F (..\arch\arm\cortex-m3\portmacro.h)(0x6646C30D)()
+F (.\FreeRTOS.h)(0x66417ECA)()
+F (..\arch\arm\cortex-m3\my_arch.c)(0x6653ED3D)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\arch\arm\cortex-m3 -I ..\kernel\include -I ..\platform -I ..\STM32FWlib\serial -I ..\STM32FWlib\STM32F10xFWLib\inc -I ..\kernel -I ..\Demo-IE:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD-o .\objects\my_arch_1.o --omf_browse .\objects\my_arch_1.crf --depend .\objects\my_arch_1.d)
+I (..\arch\arm\cortex-m3\my_arch.h)(0x6646BBE4)
+I (..\kernel\include\my_types.h)(0x66421FF7)
+I (..\arch\arm\cortex-m3\port.h)(0x6642C9BD)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\arch\arm\cortex-m3\portmacro.h)(0x6646C30D)
+I (..\kernel\include\my_config.h)(0x66470884)
+I (..\kernel\include\my_task.h)(0x668D04C9)
+I (..\kernel\include\my_list.h)(0x6646BBE6)
+F (..\arch\arm\cortex-m3\cortexM3_macro_rvds.s)(0x66432025)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-IE:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include--pd "__UVISION_VERSION SETA 539" --pd "STM32F10X_MD SETA 1"--list .\listings\cortexm3_macro_rvds.lst --xref -o .\objects\cortexm3_macro_rvds.o --depend .\objects\cortexm3_macro_rvds.d)
+F (..\STM32FWlib\serial\serial.c)(0x664429AB)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\arch\arm\cortex-m3 -I ..\kernel\include -I ..\platform -I ..\STM32FWlib\serial -I ..\STM32FWlib\STM32F10xFWLib\inc -I ..\kernel -I ..\Demo-IE:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD-o .\objects\serial.o --omf_browse .\objects\serial.crf --depend .\objects\serial.d)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x6641FD1E)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_lib.h)(0x6641FEC6)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_map.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_conf.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_type.h)(0x663F197C)
+I (..\STM32FWlib\STM32F10xFWLib\inc\cortexm3_macro.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_exti.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_gpio.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_nvic.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_rcc.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_spi.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_systick.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_usart.h)(0x663F177B)
+F (..\STM32FWlib\STM32F10xFWLib\src\stm32f10x_exti.c)(0x6528B039)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\arch\arm\cortex-m3 -I ..\kernel\include -I ..\platform -I ..\STM32FWlib\serial -I ..\STM32FWlib\STM32F10xFWLib\inc -I ..\kernel -I ..\Demo-IE:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD-o .\objects\stm32f10x_exti.o --omf_browse .\objects\stm32f10x_exti.crf --depend .\objects\stm32f10x_exti.d)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_exti.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_map.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_conf.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_type.h)(0x663F197C)
+I (..\STM32FWlib\STM32F10xFWLib\inc\cortexm3_macro.h)(0x6528B039)
+F (..\STM32FWlib\STM32F10xFWLib\src\stm32f10x_gpio.c)(0x6528B039)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\arch\arm\cortex-m3 -I ..\kernel\include -I ..\platform -I ..\STM32FWlib\serial -I ..\STM32FWlib\STM32F10xFWLib\inc -I ..\kernel -I ..\Demo-IE:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_gpio.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_map.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_conf.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_type.h)(0x663F197C)
+I (..\STM32FWlib\STM32F10xFWLib\inc\cortexm3_macro.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_rcc.h)(0x6528B039)
+F (..\STM32FWlib\STM32F10xFWLib\src\stm32f10x_lib.c)(0x6528B039)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\arch\arm\cortex-m3 -I ..\kernel\include -I ..\platform -I ..\STM32FWlib\serial -I ..\STM32FWlib\STM32F10xFWLib\inc -I ..\kernel -I ..\Demo-IE:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD-o .\objects\stm32f10x_lib.o --omf_browse .\objects\stm32f10x_lib.crf --depend .\objects\stm32f10x_lib.d)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_lib.h)(0x6641FEC6)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_map.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_conf.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_type.h)(0x663F197C)
+I (..\STM32FWlib\STM32F10xFWLib\inc\cortexm3_macro.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_exti.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_gpio.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_nvic.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_rcc.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_spi.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_systick.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_usart.h)(0x663F177B)
+F (..\STM32FWlib\STM32F10xFWLib\src\stm32f10x_nvic.c)(0x6528B039)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\arch\arm\cortex-m3 -I ..\kernel\include -I ..\platform -I ..\STM32FWlib\serial -I ..\STM32FWlib\STM32F10xFWLib\inc -I ..\kernel -I ..\Demo-IE:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD-o .\objects\stm32f10x_nvic.o --omf_browse .\objects\stm32f10x_nvic.crf --depend .\objects\stm32f10x_nvic.d)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_nvic.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_map.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_conf.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_type.h)(0x663F197C)
+I (..\STM32FWlib\STM32F10xFWLib\inc\cortexm3_macro.h)(0x6528B039)
+F (..\STM32FWlib\STM32F10xFWLib\src\stm32f10x_rcc.c)(0x6528B039)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\arch\arm\cortex-m3 -I ..\kernel\include -I ..\platform -I ..\STM32FWlib\serial -I ..\STM32FWlib\STM32F10xFWLib\inc -I ..\kernel -I ..\Demo-IE:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_rcc.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_map.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_conf.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_type.h)(0x663F197C)
+I (..\STM32FWlib\STM32F10xFWLib\inc\cortexm3_macro.h)(0x6528B039)
+F (..\STM32FWlib\STM32F10xFWLib\src\stm32f10x_systick.c)(0x6528B039)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\arch\arm\cortex-m3 -I ..\kernel\include -I ..\platform -I ..\STM32FWlib\serial -I ..\STM32FWlib\STM32F10xFWLib\inc -I ..\kernel -I ..\Demo-IE:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD-o .\objects\stm32f10x_systick.o --omf_browse .\objects\stm32f10x_systick.crf --depend .\objects\stm32f10x_systick.d)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_systick.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_map.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_conf.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_type.h)(0x663F197C)
+I (..\STM32FWlib\STM32F10xFWLib\inc\cortexm3_macro.h)(0x6528B039)
+F (..\STM32FWlib\STM32F10xFWLib\src\stm32f10x_tim.c)(0x6528B039)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\arch\arm\cortex-m3 -I ..\kernel\include -I ..\platform -I ..\STM32FWlib\serial -I ..\STM32FWlib\STM32F10xFWLib\inc -I ..\kernel -I ..\Demo-IE:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD-o .\objects\stm32f10x_tim.o --omf_browse .\objects\stm32f10x_tim.crf --depend .\objects\stm32f10x_tim.d)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_tim.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_map.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_conf.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_type.h)(0x663F197C)
+I (..\STM32FWlib\STM32F10xFWLib\inc\cortexm3_macro.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_rcc.h)(0x6528B039)
+F (..\STM32FWlib\STM32F10xFWLib\src\stm32f10x_usart.c)(0x66908C7D)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\arch\arm\cortex-m3 -I ..\kernel\include -I ..\platform -I ..\STM32FWlib\serial -I ..\STM32FWlib\STM32F10xFWLib\inc -I ..\kernel -I ..\Demo-IE:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD-o .\objects\stm32f10x_usart.o --omf_browse .\objects\stm32f10x_usart.crf --depend .\objects\stm32f10x_usart.d)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_usart.h)(0x663F177B)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_map.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_conf.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_type.h)(0x663F197C)
+I (..\STM32FWlib\STM32F10xFWLib\inc\cortexm3_macro.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_rcc.h)(0x6528B039)
+F (.\main.c)(0x67185FA3)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\arch\arm\cortex-m3 -I ..\kernel\include -I ..\platform -I ..\STM32FWlib\serial -I ..\STM32FWlib\STM32F10xFWLib\inc -I ..\kernel -I ..\Demo-IE:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\kernel\include\my_mem.h)(0x66447344)
+I (..\kernel\include\my_list.h)(0x6646BBE6)
+I (..\kernel\include\my_types.h)(0x66421FF7)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x6641FD1E)
+I (..\kernel\include\my_scheduler.h)(0x6653ED7A)
+I (..\kernel\include\my_config.h)(0x66470884)
+I (..\kernel\include\my_task.h)(0x668D04C9)
+I (..\kernel\include\my_lib.h)(0x664ABA8E)
+I (..\kernel\include\my_critical.h)(0x6646BC61)
+I (..\arch\arm\cortex-m3\port.h)(0x6642C9BD)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\arch\arm\cortex-m3\portmacro.h)(0x6646C30D)
+I (..\kernel\include\my_queue.h)(0x6690885C)
+I (..\kernel\include\my_error_code.h)(0x6646B7B1)
+I (..\kernel\include\my_sem.h)(0x6646BD5C)
+I (..\kernel\include\my_mutex.h)(0x6645B764)
+I (..\kernel\include\my_kernel.h)(0x6646BD5E)
+I (..\platform\platform.h)(0x6646C473)
+I (..\kernel\include\my_timer.h)(0x66A0ADC9)
+F (..\platform\platform.c)(0x6653DA2B)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\arch\arm\cortex-m3 -I ..\kernel\include -I ..\platform -I ..\STM32FWlib\serial -I ..\STM32FWlib\STM32F10xFWLib\inc -I ..\kernel -I ..\Demo-IE:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD-o .\objects\platform.o --omf_browse .\objects\platform.crf --depend .\objects\platform.d)
+I (..\platform\platform.h)(0x6646C473)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_it.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_lib.h)(0x6641FEC6)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_map.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_conf.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_type.h)(0x663F197C)
+I (..\STM32FWlib\STM32F10xFWLib\inc\cortexm3_macro.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_exti.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_gpio.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_nvic.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_rcc.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_spi.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_systick.h)(0x6528B039)
+I (..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_usart.h)(0x663F177B)

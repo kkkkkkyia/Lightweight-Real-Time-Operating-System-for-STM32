@@ -1,0 +1,16 @@
+.\objects\my_timer.o: ..\kernel\source\my_timer.c
+.\objects\my_timer.o: ..\kernel\include\my_timer.h
+.\objects\my_timer.o: ..\kernel\include\my_list.h
+.\objects\my_timer.o: ..\kernel\include\my_task.h
+.\objects\my_timer.o: ..\kernel\include\my_types.h
+.\objects\my_timer.o: ..\kernel\include\my_config.h
+.\objects\my_timer.o: ..\kernel\include\my_error_code.h
+.\objects\my_timer.o: ..\kernel\include\my_time.h
+.\objects\my_timer.o: ..\kernel\include\my_scheduler.h
+.\objects\my_timer.o: ..\kernel\include\my_printk.h
+.\objects\my_timer.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\my_timer.o: ..\kernel\include\my_lib.h
+.\objects\my_timer.o: ..\kernel\include\my_critical.h
+.\objects\my_timer.o: ..\arch\arm\cortex-m3\port.h
+.\objects\my_timer.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\my_timer.o: ..\arch\arm\cortex-m3\portmacro.h

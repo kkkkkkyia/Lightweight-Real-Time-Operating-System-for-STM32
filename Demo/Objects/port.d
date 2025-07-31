@@ -1,0 +1,9 @@
+.\objects\port.o: ..\arch\arm\cortex-m3\port.c
+.\objects\port.o: ..\arch\arm\cortex-m3\port.h
+.\objects\port.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\port.o: ..\arch\arm\cortex-m3\portmacro.h
+.\objects\port.o: ..\kernel\include\my_config.h
+.\objects\port.o: ..\kernel\include\my_types.h
+.\objects\port.o: ..\kernel\include\my_scheduler.h
+.\objects\port.o: ..\kernel\include\my_list.h
+.\objects\port.o: ..\kernel\include\my_task.h

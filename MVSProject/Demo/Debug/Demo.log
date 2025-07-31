@@ -1,0 +1,16 @@
+﻿  my_arch.c
+c:\users\29973\documents\source insight 4.0\projects\myrtos\arch\arm\cortex-m3\portmacro.h(174): error C2400: “操作码”中的内联汇编语法错误；找到“basepri”
+c:\users\29973\documents\source insight 4.0\projects\myrtos\arch\arm\cortex-m3\portmacro.h(189): error C2400: “操作码”中的内联汇编语法错误；找到“basepri”
+c:\users\29973\documents\source insight 4.0\projects\myrtos\arch\arm\cortex-m3\portmacro.h(191): error C2400: “操作码”中的内联汇编语法错误；找到“newline”
+c:\users\29973\documents\source insight 4.0\projects\myrtos\arch\arm\cortex-m3\portmacro.h(193): error C2400: “操作码”中的内联汇编语法错误；找到“newline”
+c:\users\29973\documents\source insight 4.0\projects\myrtos\arch\arm\cortex-m3\portmacro.h(205): error C2400: “操作码”中的内联汇编语法错误；找到“basepri”
+c:\users\29973\documents\source insight 4.0\projects\myrtos\arch\arm\cortex-m3\portmacro.h(205): error C2014: 预处理器命令必须作为第一个非空白空间启动
+c:\users\29973\documents\source insight 4.0\projects\myrtos\arch\arm\cortex-m3\portmacro.h(220): error C2400: “操作码”中的内联汇编语法错误；找到“ulReturn”
+c:\users\29973\documents\source insight 4.0\projects\myrtos\arch\arm\cortex-m3\portmacro.h(221): error C2400: “操作码”中的内联汇编语法错误；找到“basepri”
+c:\users\29973\documents\source insight 4.0\projects\myrtos\arch\arm\cortex-m3\portmacro.h(223): error C2400: “操作码”中的内联汇编语法错误；找到“newline”
+c:\users\29973\documents\source insight 4.0\projects\myrtos\arch\arm\cortex-m3\portmacro.h(225): error C2400: “操作码”中的内联汇编语法错误；找到“newline”
+c:\users\29973\documents\source insight 4.0\projects\myrtos\arch\arm\cortex-m3\portmacro.h(240): error C2400: “操作码”中的内联汇编语法错误；找到“ulCurrentInterrupt”
+c:\users\29973\documents\source insight 4.0\projects\myrtos\kernel\include\my_list.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Demo.c
+c:\users\29973\documents\source insight 4.0\projects\myrtos\kernel\include\my_list.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  正在生成代码...

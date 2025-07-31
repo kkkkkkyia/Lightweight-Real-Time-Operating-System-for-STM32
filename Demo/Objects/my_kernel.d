@@ -1,0 +1,15 @@
+.\objects\my_kernel.o: ..\kernel\source\my_kernel.c
+.\objects\my_kernel.o: ..\kernel\include\my_kernel.h
+.\objects\my_kernel.o: ..\kernel\include\my_scheduler.h
+.\objects\my_kernel.o: ..\kernel\include\my_config.h
+.\objects\my_kernel.o: ..\kernel\include\my_types.h
+.\objects\my_kernel.o: ..\kernel\include\my_list.h
+.\objects\my_kernel.o: ..\kernel\include\my_task.h
+.\objects\my_kernel.o: ..\kernel\include\my_time.h
+.\objects\my_kernel.o: ..\kernel\include\my_mem.h
+.\objects\my_kernel.o: ..\kernel\include\my_mutex.h
+.\objects\my_kernel.o: ..\kernel\include\my_sem.h
+.\objects\my_kernel.o: ..\kernel\include\my_queue.h
+.\objects\my_kernel.o: ..\kernel\include\my_timer.h
+.\objects\my_kernel.o: ..\kernel\include\my_printk.h
+.\objects\my_kernel.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

@@ -1,0 +1,16 @@
+.\objects\my_mutex.o: ..\kernel\source\my_mutex.c
+.\objects\my_mutex.o: ..\kernel\include\my_mutex.h
+.\objects\my_mutex.o: ..\kernel\include\my_task.h
+.\objects\my_mutex.o: ..\kernel\include\my_list.h
+.\objects\my_mutex.o: ..\kernel\include\my_types.h
+.\objects\my_mutex.o: ..\kernel\include\my_config.h
+.\objects\my_mutex.o: ..\kernel\include\my_error_code.h
+.\objects\my_mutex.o: ..\kernel\include\my_critical.h
+.\objects\my_mutex.o: ..\arch\arm\cortex-m3\port.h
+.\objects\my_mutex.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\my_mutex.o: ..\arch\arm\cortex-m3\portmacro.h
+.\objects\my_mutex.o: ..\kernel\include\my_scheduler.h
+.\objects\my_mutex.o: ..\arch\arm\cortex-m3\my_arch.h
+.\objects\my_mutex.o: ..\kernel\include\my_time.h
+.\objects\my_mutex.o: ..\kernel\include\my_printk.h
+.\objects\my_mutex.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

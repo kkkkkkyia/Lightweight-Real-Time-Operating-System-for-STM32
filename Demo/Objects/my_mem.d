@@ -1,0 +1,13 @@
+.\objects\my_mem.o: ..\kernel\source\my_mem.c
+.\objects\my_mem.o: ..\kernel\include\my_mem.h
+.\objects\my_mem.o: ..\kernel\include\my_list.h
+.\objects\my_mem.o: ..\kernel\include\my_types.h
+.\objects\my_mem.o: ..\kernel\include\my_config.h
+.\objects\my_mem.o: ..\kernel\include\my_lib.h
+.\objects\my_mem.o: ..\kernel\include\my_printk.h
+.\objects\my_mem.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\my_mem.o: ..\kernel\include\my_critical.h
+.\objects\my_mem.o: ..\arch\arm\cortex-m3\port.h
+.\objects\my_mem.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\my_mem.o: ..\arch\arm\cortex-m3\portmacro.h
+.\objects\my_mem.o: ..\arch\arm\cortex-m3\my_arch.h

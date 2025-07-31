@@ -1,0 +1,15 @@
+.\objects\serial.o: ..\STM32FWlib\serial\serial.c
+.\objects\serial.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\serial.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\serial.o: ..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_lib.h
+.\objects\serial.o: ..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_map.h
+.\objects\serial.o: ..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_conf.h
+.\objects\serial.o: ..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_type.h
+.\objects\serial.o: ..\STM32FWlib\STM32F10xFWLib\inc\cortexm3_macro.h
+.\objects\serial.o: ..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_exti.h
+.\objects\serial.o: ..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_gpio.h
+.\objects\serial.o: ..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_nvic.h
+.\objects\serial.o: ..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_rcc.h
+.\objects\serial.o: ..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_spi.h
+.\objects\serial.o: ..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_systick.h
+.\objects\serial.o: ..\STM32FWlib\STM32F10xFWLib\inc\stm32f10x_usart.h
